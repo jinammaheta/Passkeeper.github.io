@@ -1,0 +1,14 @@
+{
+    "manifest_version":2,
+    "name":"project",
+    "version":"1.0",
+    "description":"password manager",
+    
+    "browser_action":
+    {
+        "default_popup":"popup.html"
+    },
+    "permissions":[
+    "http://localhost:8080/*"
+    ]
+}
